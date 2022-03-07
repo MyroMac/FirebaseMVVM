@@ -48,7 +48,7 @@ class LoginViewController: UIViewController {
         /// user registration is successful showing just alert now for demostration
         
      
-        let alert = UIAlertController(title: "SUCCESS", message: "User with id \(response.uid) has been created successfully", preferredStyle: .alert)
+        let alert = UIAlertController(title: "SUCCESS", message: "User with id \(response.uid) has logged in  successfully", preferredStyle: .alert)
         
         let action = UIAlertAction(title: "OK", style: .default, handler: nil)
         alert.addAction(action)
